@@ -1,4 +1,17 @@
 plugins {
-    id("com.android.library") version "8.5.2" apply false
-    id("org.jetbrains.kotlin.android") version "2.0.0" apply false
+    id("com.android.application")
+    id("org.jetbrains.kotlin.android")
+}
+
+android {
+    namespace = "anikoto"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "anikoto.app"
+        minSdk = 23
+        targetSdk = 35
+        versionCode = 1
+        versionName = "1.0"
+    }
 }
