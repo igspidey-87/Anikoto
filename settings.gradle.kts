@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Anikoto"
-include(":Anikoto")
+include(":app")
